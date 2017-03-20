@@ -2,11 +2,11 @@
   "name": "move-cursor-improved",
   "main": "./lib/move-cursor-improved.js",
   "version": "0.0.0",
-  "description": "",
+  "description": "Move cursor up and down keeping its horizontal position",
   "scripts": {
     "lint": "eslint lib --fix"
   },
-  "keywords": [],
+  "keywords": ["cursor"],
   "activationCommands": {},
   "repository": "https://github.com/susisu/move-cursor-improved",
   "license": "MIT",

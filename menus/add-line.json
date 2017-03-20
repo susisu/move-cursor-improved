@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Add Line",
+          "submenu": [
+            {
+              "label": "Add Previous Line",
+              "command": "add-line:add-previous-line"
+            },
+            {
+              "label": "Add Next Line",
+              "command": "add-line:add-next-line"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

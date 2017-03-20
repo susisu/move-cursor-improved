@@ -1,0 +1,19 @@
+{
+  "name": "add-line",
+  "main": "./lib/add-line.js",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint lib --fix"
+  },
+  "keywords": [],
+  "activationCommands": {},
+  "repository": "https://github.com/susisu/atom-add-line",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0"
+  }
+}

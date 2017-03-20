@@ -8,8 +8,3 @@ Without this package:
 With this package:
 
 ![screenshot](https://github.com/susisu/move-cursor-improved/wiki/images/with-mci.gif)
-
-## Installation
-``` shell
-apm install https://github.com/susisu/move-cursor-improved.git
-```

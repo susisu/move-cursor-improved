@@ -4,15 +4,15 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "Add Line",
+          "label": "Move Cursor Improved",
           "submenu": [
             {
               "label": "Add Previous Line",
-              "command": "add-line:add-previous-line"
+              "command": "move-cursor-improved:add-previous-line"
             },
             {
               "label": "Add Next Line",
-              "command": "add-line:add-next-line"
+              "command": "move-cursor-improved:add-next-line"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
-  "name": "add-line",
-  "main": "./lib/add-line.js",
+  "name": "move-cursor-improved",
+  "main": "./lib/move-cursor-improved.js",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "activationCommands": {},
-  "repository": "https://github.com/susisu/atom-add-line",
+  "repository": "https://github.com/susisu/move-cursor-improved",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "description": "Move cursor up and down keeping its horizontal position",
   "scripts": {
-    "lint": "eslint lib --fix"
+    "lint": "eslint lib spec",
+    "fix": "eslint lib spec --fix"
   },
   "keywords": [
     "cursor"
@@ -16,6 +17,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.18.0"
+    "eslint": "^4.3.0"
   }
 }

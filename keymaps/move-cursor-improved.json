@@ -2,5 +2,29 @@
   "atom-text-editor:not(.mini):not(.autocomplete-active)": {
     "down": "move-cursor-improved:move-down",
     "up"  : "move-cursor-improved:move-up"
+  },
+  ".platform-darwin atom-text-editor:not(.mini)": {
+    "alt-up"        : "move-cursor-improved:add-previous-line",
+    "alt-down"      : "move-cursor-improved:add-next-line",
+    "ctrl-alt-down" : "move-cursor-improved:move-last-cursor-down",
+    "ctrl-alt-up"   : "move-cursor-improved:move-last-cursor-up",
+    "ctrl-alt-left" : "move-cursor-improved:move-last-cursor-left",
+    "ctrl-alt-right": "move-cursor-improved:move-last-cursor-right"
+  },
+  ".platform-linux atom-text-editor:not(.mini)": {
+    "ctrl-shift-up"       : "move-cursor-improved:add-previous-line",
+    "ctrl-shift-down"     : "move-cursor-improved:add-next-line",
+    "ctrl-shift-alt-down" : "move-cursor-improved:move-last-cursor-down",
+    "ctrl-shift-alt-up"   : "move-cursor-improved:move-last-cursor-up",
+    "ctrl-shift-alt-left" : "move-cursor-improved:move-last-cursor-left",
+    "ctrl-shift-alt-right": "move-cursor-improved:move-last-cursor-right"
+  },
+  ".platform-win32 atom-text-editor:not(.mini)": {
+    "alt-up"              : "move-cursor-improved:add-previous-line",
+    "alt-down"            : "move-cursor-improved:add-next-line",
+    "ctrl-shift-alt-down" : "move-cursor-improved:move-last-cursor-down",
+    "ctrl-shift-alt-up"   : "move-cursor-improved:move-last-cursor-up",
+    "ctrl-shift-alt-left" : "move-cursor-improved:move-last-cursor-left",
+    "ctrl-shift-alt-right": "move-cursor-improved:move-last-cursor-right"
   }
 }

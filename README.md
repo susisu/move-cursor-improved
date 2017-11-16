@@ -1,5 +1,5 @@
 # move-cursor-improved
-Improve Atom's cursor movement.
+Improve and correct Atom's cursor movement.
 
 ## Features
 ### Correct cursor's up/down movement
@@ -11,14 +11,13 @@ With this package:
 
 ![screenshot](https://github.com/susisu/move-cursor-improved/wiki/images/with-mci.gif)
 
-Atom's default cursor movement is based on characters' code units, that looks very strange for "wide" characters, used especially in the East Asian languages.
-This package corrects it to be visually intuitive.
+Atom's default cursor up/down movement is based on characters' code units, but it looks very strange if you use "wide" characters like East Asian ones.
+This package corrects it to make cursor movement visually intuitive.
 
 ### Commands
-The package also provides some commands.
-These are (visually intuitive) alternatives to the commands provided by the [multi-cursor](https://atom.io/packages/multi-cursor) package.
+The package also provides some commands, which are (visually intuitive) alternatives to the commands provided by [multi-cursor](https://atom.io/packages/multi-cursor).
 
-|          Name          |                        Description                         |                                Windows                                 |                        macOS                        |                                 Linux                                  |
+| Name                   | Description                                                | Windows                                                                | macOS                                               | Linux                                                                  |
 | ---------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------------------------------- |
 | Add Previous Line      | Create a cursor in the previous (up) line for each cursor. | <kbd>alt</kbd> + <kbd>up</kbd>                                         | <kbd>alt</kbd> + <kbd>up</kbd>                      | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>up</kbd>                     |
 | Add Next Line          | Create a cursor in the next (down) line for each cursor.   | <kbd>alt</kbd> + <kbd>down</kbd>                                       | <kbd>alt</kbd> + <kbd>down</kbd>                    | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>down</kbd>                   |
@@ -38,6 +37,3 @@ You may want to customize keymaps by yourself:
   'ctrl-alt-left' : 'move-cursor-improved:move-last-cursor-left'
   'ctrl-alt-right': 'move-cursor-improved:move-last-cursor-right'
 ```
-
-## Recommended packages
-* [rectangle-selection](https://atom.io/packages/rectangle-selection) is useful for multi-line selections.

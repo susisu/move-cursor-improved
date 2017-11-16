@@ -2,7 +2,7 @@
   "name": "move-cursor-improved",
   "main": "./lib/move-cursor-improved.js",
   "version": "0.3.0",
-  "description": "Improve Atom's cursor movement",
+  "description": "Improve and correct Atom's cursor movement",
   "scripts": {
     "lint": "eslint lib spec",
     "fix": "eslint lib spec --fix"

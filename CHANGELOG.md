@@ -1,3 +1,8 @@
+## 0.3.1
+* Fix cursor movement at first and last lines
+* Merge cursors after movement
+* Fix movement of cursors in selections
+
 ## 0.3.0
 * Add select-up and select-down commands, fix Atom's original commands
 

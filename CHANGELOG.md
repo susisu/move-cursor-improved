@@ -1,3 +1,6 @@
+## 0.3.2
+* Improve performance of `add-next-line` and `add-previous-line`
+
 ## 0.3.1
 * Fix cursor movement at first and last lines
 * Merge cursors after movement

@@ -1,3 +1,6 @@
+## 0.3.3
+* Improve performance
+
 ## 0.3.2
 * Improve performance of `add-next-line` and `add-previous-line`
 

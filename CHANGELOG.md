@@ -1,3 +1,6 @@
+## 0.3.4
+* Fix move-up behavior
+
 ## 0.3.3
 * Improve performance
 
